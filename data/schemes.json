@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "SBI Student Loan",
+    "provider": "SBI",
+    "purpose": "education",
+    "minAmount": 100000,
+    "maxAmount": 1500000,
+    "interestRate": "8.5%",
+    "tenure": "10 years",
+    "description": "For students pursuing higher education in India or abroad"
+  },
+  {
+    "id": 2,
+    "name": "Axis Bank Education Loan",
+    "provider": "Axis Bank",
+    "purpose": "education",
+    "minAmount": 50000,
+    "maxAmount": 750000,
+    "interestRate": "9.0%",
+    "tenure": "8 years",
+    "description": "For students pursuing graduation or post graduation"
+  },
+  {
+    "id": 3,
+    "name": "HDFC Home Loan",
+    "provider": "HDFC",
+    "purpose": "home",
+    "minAmount": 500000,
+    "maxAmount": 10000000,
+    "interestRate": "7.9%",
+    "tenure": "20 years",
+    "description": "For purchasing or constructing residential property"
+  },
+  {
+    "id": 4,
+    "name": "PNB Home Loan",
+    "provider": "PNB",
+    "purpose": "home",
+    "minAmount": 300000,
+    "maxAmount": 7500000,
+    "interestRate": "8.2%",
+    "tenure": "15 years",
+    "description": "For purchasing property at affordable interest rates"
+  },
+  {
+    "id": 5,
+    "name": "Mudra Business Loan",
+    "provider": "Government of India",
+    "purpose": "business",
+    "minAmount": 50000,
+    "maxAmount": 1000000,
+    "interestRate": "9.5%",
+    "tenure": "5 years",
+    "description": "For small business owners and entrepreneurs"
+  },
+  {
+    "id": 6,
+    "name": "HDFC Business Loan",
+    "provider": "HDFC",
+    "purpose": "business",
+    "minAmount": 200000,
+    "maxAmount": 5000000,
+    "interestRate": "10.5%",
+    "tenure": "6 years",
+    "description": "For established businesses looking to expand"
+  },
+  {
+    "id": 7,
+    "name": "SBI Vehicle Loan",
+    "provider": "SBI",
+    "purpose": "vehicle",
+    "minAmount": 100000,
+    "maxAmount": 2000000,
+    "interestRate": "9.2%",
+    "tenure": "7 years",
+    "description": "For purchasing new or used vehicles"
+  },
+  {
+    "id": 8,
+    "name": "ICICI Personal Loan",
+    "provider": "ICICI",
+    "purpose": "personal",
+    "minAmount": 50000,
+    "maxAmount": 500000,
+    "interestRate": "11.5%",
+    "tenure": "3 years",
+    "description": "For personal expenses like medical, travel or wedding"
+  }
+]
