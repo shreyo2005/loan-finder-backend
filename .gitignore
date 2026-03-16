@@ -1,2 +1,4 @@
 node_modules
 .env
+
+mongodb+srv://diyalaik2005:<db_password>@cluster0.hr7fx.mongodb.net/?appName=Cluster0
