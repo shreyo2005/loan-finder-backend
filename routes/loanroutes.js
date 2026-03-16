@@ -4,18 +4,27 @@ const router=express.Router()
 //router is a feature of express
 //this router only hsndles loan related features
 
-const {searchSchemes}=require('../controllers/loancontroller')
+const {searchSchemes,getallschemes,getschemebyid}=require('../controllers/loancontroller')
 //../ means one folder up from routes/folder to reach the root then go to controllers/folder
+const validate=require('../middleware/validate')
 
+//these routes are publicly accessible.
+router.get('/schemes',getallschemes)
+router.get('/schemes/:id',getschemebyid)
 
 console.log('searchSchemes:', searchSchemes)
 //for debug 
 
-router.post('/search',searchSchemes)
 
-router.post('/search', (req, res) => {
-    res.json({ message: 'route works' })
-})//for debugging 
+router.post('/search',validate,searchSchemes)
+
+
+//...
+// router.post('/search', (req, res) => {
+//     res.json({ message: 'route works' })
+// })
+
+//for debugging 
 
 
 module.exports=router
