@@ -2,6 +2,7 @@ const express =require('express');
 const dotenv=require('dotenv')
 const connectDB=require('./config/db')
 const loanroutes=require('./routes/loanroutes')
+const authroutes=require('/routes/authroutes')
 
 dotenv.config()
 connectDB()
@@ -9,6 +10,7 @@ connectDB()
 const app=express()
 app.use(express.json())  //middleware to read json data in the request body and make it available to us 
 app.use('/api/loans',loanroutes)
+app.use('/api/auth',authroutes)
 
 app.post('/test', (req, res) => {
     res.json({ message: 'server works' })
